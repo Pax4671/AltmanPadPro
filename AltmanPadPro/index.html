@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AltmanPad Pro</title>
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>AltmanPad Pro 起動</h1>
+  <p>未来を描こう、AltmanPadから。</p>
+  <textarea rows="10" cols="50" placeholder="ここに書いてね..."></textarea>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('SW registered', reg))
+        .catch(err => console.error('SW registration failed', err));
+    }
+  </script>
+</body>
+</html>
