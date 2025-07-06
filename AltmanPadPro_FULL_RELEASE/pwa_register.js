@@ -1,1 +1,0 @@
-// Placeholder content for pwa_register.js

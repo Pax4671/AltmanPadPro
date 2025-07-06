@@ -1,1 +1,0 @@
-// Placeholder content for brushes/watercolor.js
