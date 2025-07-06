@@ -1,4 +1,3 @@
-# AltmanPadPro
 # AltmanPad Pro™ v1.0
 
 🎨 **AltmanPad Pro™** は、「描く」「書く」「届ける」をシンプルに実現する次世代のZINEクリエイション・ツールです。  
